@@ -1,0 +1,462 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: serif;
+ }
+html{
+    scroll-behavior: smooth;
+}
+ header {
+     margin: 30px 30px;
+ }
+ 
+ .box {
+     border: 1px solid #918f8f;
+     width: 30%;
+     height: 40px;
+     margin-top: 20px;
+     margin-left: 20px;
+     font-size: 17px;
+     font-weight: 100;
+ }
+
+ .box h5 {
+    width: 100%;
+     margin-top: 8px;
+     margin-left: 32px;
+     font-size: 16px;
+     color: rgb(108, 108, 108);
+     animation: typing 5s steps (40, end);
+ }
+
+ @keyframes typing {
+     from {
+         width: 0;
+     }
+
+     to {
+         width: 30%;
+     }
+ }
+
+ .box img {
+     width: 21px;
+     height: 21px;
+     position: relative;
+     bottom: 17px;
+     left: 4px;
+ }
+
+ .image2 img {
+     width: 173px;
+     height: 56px;
+     position: relative;
+     left: 550px;
+     bottom: 70px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: end;
+     position: relative;
+     bottom: 30px;
+     /* right: 25px; */
+
+ }
+
+ nav ul {
+     display: flex;
+     list-style: none;
+     gap: 15px;
+     font-size: 18px;
+     margin-right: 50px;
+ }
+nav ul a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+ nav ul li {
+     cursor: pointer;
+ }
+
+ li img {
+     width: 25px;
+     height: 25px;
+ }
+
+ hr {
+     color: rgb(238, 225, 225);
+     width: 1px;
+     height: 19px;
+     margin-left: -5px;
+ }
+
+ .afthead nav ul {
+     gap: 80px;
+     font-size: 21px;
+     margin-bottom: 10px;
+ }
+
+ .afthead nav {
+     border-bottom: 1px solid rgb(238, 225, 225);
+     margin-top: 6px;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+ }
+
+ nav ul :hover {
+     color: rgb(255, 113, 198);
+ }
+main{
+    margin: 20px 20px;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+ .herosection {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+     gap: 45px;
+     justify-content: center;
+     gap: 100px;
+     margin: 0 20px;
+   
+ }
+
+ .sareeimage h3 {
+     width: 300px;
+     font-weight: lighter;
+     font-size: 20px;
+ }
+
+ .sareeimage h5 {
+     font-size: 18px;
+     color: rgb(194, 59, 81);
+ }
+
+ .sareeimage h4 {
+     float: inline-end;
+     position: relative;
+     right: 216px;
+     bottom: 20.9px;
+     font-size: 19px;
+     color: rgb(227, 34, 66);
+ }
+
+ .sareeimage p {
+     font-size: 20px;
+     background: linear-gradient(rgb(210, 0, 35), rgb(233, 72, 98));
+     width: 90px;
+     display: flex;
+     justify-content: center;
+     margin-top: 12px;
+ }
+
+ .tags {
+     display: flex;
+     gap: 22px;
+     text-align: center;
+     justify-content: center;
+     font-size: 19px;
+     margin-top: 30px;
+     margin-bottom: 45px;
+     border-top: 1px solid #e4dfdf;
+ }
+ .tag{
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    width: 30px;
+    border-radius: 450px;
+    cursor: pointer;
+ }
+ .dark{
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+ }
+ .light{
+    background-color: #f9f0f0;
+ }
+ .tags p{
+    font-size: 20px;
+    border:1px solid #ccc; 
+    margin-top: 12px;
+    width: 60px;
+    background-color: #f9f0f0;
+    cursor: pointer;
+ }
+ .content h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    margin-bottom: 15px;
+ }
+ .content p{
+    margin: 20px 30px;
+    line-height: 22px;
+ }
+ footer{
+    border-top: 1px solid #e4dfdf;
+margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+ }
+ footer img{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+ }
+
+/* lehnga section */
+
+ .lehengaimage h3 {
+    width: 300px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.lehengaimage h5 {
+    font-size: 18px;
+    color: rgb(194, 59, 81);
+}
+
+.lehengaimage h4 {
+    float: inline-end;
+    position: relative;
+    right: 216px;
+    bottom: 20.9px;
+    font-size: 19px;
+    color: rgb(227, 34, 66);
+}
+
+.lehengaimage p {
+    font-size: 20px;
+    background: linear-gradient(rgb(210, 0, 35), rgb(233, 72, 98));
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+/* kids section */
+
+
+.kids h3 {
+    width: 300px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.kids h5 {
+    font-size: 18px;
+    color: rgb(194, 59, 81);
+}
+
+.kids h4 {
+    float: inline-end;
+    position: relative;
+    right: 216px;
+    bottom: 20.9px;
+    font-size: 19px;
+    color: rgb(227, 34, 66);
+}
+
+.kids p {
+    font-size: 20px;
+    background: linear-gradient(rgb(210, 0, 35), rgb(233, 72, 98));
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+/* men section
+ */
+
+ .men h3 {
+    width: 300px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.men h5 {
+    font-size: 18px;
+    color: rgb(194, 59, 81);
+}
+
+.men h4 {
+    float: inline-end;
+    position: relative;
+    right: 216px;
+    bottom: 20.9px;
+    font-size: 19px;
+    color: rgb(227, 34, 66);
+}
+
+.men p {
+    font-size: 20px;
+    background: linear-gradient(rgb(210, 0, 35), rgb(233, 72, 98));
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.content h3{
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+/* jewlerey */
+
+.jewlerey h3 {
+    width: 300px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.jewlerey h5 {
+    font-size: 18px;
+    color: rgb(194, 59, 81);
+}
+
+.jewlerey h4 {
+    float: inline-end;
+    position: relative;
+    right: 210px;
+    bottom: 20.9px;
+    font-size: 19px;
+    color: rgb(227, 34, 66);
+}
+
+.jewlerey p {
+    font-size: 20px;
+    background: linear-gradient(rgb(210, 0, 35), rgb(233, 72, 98));
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+/* jeans top */
+
+.jeanssection  h3 {
+    width: 300px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.jeanssection  h5 {
+    font-size: 18px;
+    color: rgb(194, 59, 81);
+}
+
+.jeanssection  h4 {
+    float: inline-end;
+    position: relative;
+    right: 160px;
+    bottom: 21px;
+    font-size: 19px;
+    color: rgb(227, 34, 66);
+}
+
+.jeanssection  p {
+    font-size: 20px;
+    background: linear-gradient(rgb(210, 0, 35), rgb(233, 72, 98));
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.jeanssection img{
+    width: 340px;
+    height: 340px;
+}
+
+.jeanssection{
+    width: 300px;
+}
+/* punjabi */
+
+.punjabi h3 {
+    width: 300px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.punjabi h5 {
+    font-size: 18px;
+    color: rgb(194, 59, 81);
+}
+
+.punjabi h4 {
+    float: inline-end;
+    position: relative;
+    right: 160px;
+    bottom: 21px;
+    font-size: 19px;
+    color: rgb(227, 34, 66);
+}
+
+.punjabi p {
+    font-size: 20px;
+    background: linear-gradient(rgb(210, 0, 35), rgb(233, 72, 98));
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.punjabisection img{
+    width: 300px;
+    height: 300px;
+}
+
+.punjabisection{
+    width: 300px;
+}
+
+
+@media (max-width:480px){
+    body{
+        /* overflow-x: hidden; */
+    }
+    header{
+        width: 100%;
+    }
+    header .box{
+        width: 70%;
+        margin-left: -20px;
+        
+    } 
+    .box img{
+        display: flex;
+        place-items: center
+        ;
+        margin-right: 220px;
+    } 
+    .image2 img{
+        height: 46px;
+        position: relative;
+        left: 294px;
+        width: 105px;
+        bottom: 54px;
+      }   
+    nav ul{
+        margin-top: 52px;
+        margin-right: 60px;
+        gap: 20px;
+    }
+
+    .afthead nav ul{
+        gap: 10px;
+        font-size: 12px;
+        height: 200px;overflow-x: hidden;
+        width: 80%;
+    }
+}
